@@ -93,3 +93,22 @@ hi link rubyInterpolationDelimiter    Interpolation
 hi link rubyRailsMethod       Method
 
 
+hi Statement        term=bold ctermfg=78 guifg=LightGreen
+hi Conditional      term=bold ctermfg=78 guifg=LightGreen
+hi PreProc          term=underline ctermfg=110 guifg=SkyBlue1
+hi Number           ctermfg=208 guifg=#fcaf3e guibg=bg  
+"hi String           gui=NONE   guifg=#d0d0b0   guibg=#303030
+"hi String           ctermfg=7 ctermbg=236
+hi String ctermfg=7 ctermbg=236 guifg=#d0d0b0 guibg=#303030
+hi CursorColumn     guibg=#404040
+hi CursorColumn     ctermbg=238
+
+hi CursorLine       guibg=#404040
+hi CursorLine       ctermbg=238
+hi Include          gui=None guifg=LightSteelBlue3 guibg=bg
+hi Include          ctermfg=110
+hi cppStructure     ctermfg=111 guifg=#b0c0e0
+hi cType            ctermfg=111 guifg=#b0c0e0
+
+"hi confComment      ctermfg=246
+hi Comment      ctermfg=246
